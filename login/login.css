@@ -1,0 +1,68 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  background: url(backlog.jpg);
+}
+
+.login-container {
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 30px;
+  margin-top: 80px;
+  background-color: skyblue;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  background: linear-gradient(to left, blue, aqua);
+  background-clip: text;
+  display: inline;
+  color: transparent;
+  animation: animated 5s linear infinite;
+}
+
+@keyframes animated {
+  to {
+    background-position-x: 161px;
+  }
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  width: 50%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.remember-forgot a {
+  color: steelblue;
+  text-decoration: none;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+.register-link p a {
+  color: steelblue;
+  text-decoration: none;
+}
+
+.register-link p a:hover {
+  text-decoration: underline;
+}
